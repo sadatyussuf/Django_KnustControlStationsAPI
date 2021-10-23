@@ -27,3 +27,6 @@ class ControlStationDetailView(generics.RetrieveDestroyAPIView):
             return self.destroy(request, *args, **kwargs)
         else:
             raise ValidationError("This is\'t your post to delete")
+
+
+# https: // git.heroku.com/knustcontrolsapi.git
